@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const redirectUrl = document.createElement('a');
     const searchQuery = encodeURIComponent(job.title);
     redirectUrl.href = `https://www.adzuna.co.za/search?q=${searchQuery}`;
-    redirectUrl.textContent = 'Learn More About This Job Post';
+    redirectUrl.textContent = 'Press here to Learn More About This Job Post';
     redirectUrl.target = "_blank"; // Open link in a new tab
 
   
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
      // Adding a note between the button and redirect link
      const note = document.createElement('p');
-     note.textContent = 'NOTE: Copy job details yourself !! then take it to Mr Dream Job AI ...paste it EVERYTIME !! you send a message';
+     //note.textContent = 'NOTE: Copy job details yourself !! then take it to Mr Dream Job AI ...paste it EVERYTIME !! you send a message';//
      
      note.style.color = 'red'; // Setting the color to red
      note.style.fontFamily = 'italic, sans-serif,times new roman'; // Setting the font family
