@@ -89,17 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
     thankyou.style.textDecoration = 'underline'; // Adding underline text decoration
     container.appendChild(thankyou);
 
-     // Adding a note between the button and redirect link
-     const note = document.createElement('p');
-     //note.textContent = 'NOTE: Copy job details yourself !! then take it to Mr Dream Job AI ...paste it EVERYTIME !! you send a message';//
-     
-     note.style.color = 'red'; // Setting the color to red
-     note.style.fontFamily = 'italic, sans-serif,times new roman'; // Setting the font family
-     note.style.fontSize = '14px'; // Setting the font size
-     note.style.fontSize = '1em'; 
-     note.style.fontWeight = 'bold';
-     note.style.textDecoration = 'cursive'; // Adding underline text decoration
-     container.appendChild(note);
+    
  
     
 
